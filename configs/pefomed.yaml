@@ -1,0 +1,13 @@
+model:
+  pretrained_path: "checkpoints/pefomed_pretrained.pth"
+
+train:
+  epochs: 3
+  batch_size: 4
+  learning_rate: 5e-5
+  output_dir: "outputs/"
+
+data:
+  train_csv: "my_dataset/train/reports.csv"
+  val_csv: "my_dataset/val/reports.csv"
+  image_root: "images"
